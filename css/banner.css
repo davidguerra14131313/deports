@@ -68,7 +68,7 @@
 @media (min-width:1024px)
  {
     #banner {
-        height: 700px;
+        height: auto;
         overflow: hidden;
         background-size: cover;
         position: center;

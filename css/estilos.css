@@ -27,37 +27,58 @@ header{
     z-index: 100;
 }
 
-.contenedor {
-    width: 98%;
-    margin: auto;
-}
-
 h1 {
     float: left; 
 }
 
-header .contenedor {
-    display: table;
-}
-
-
 section {
     width: 100%;
-    margin-bottom: 25px;
+}
+.conteiner__article
+{
+    display: flex;
     
+}
+.conteiner__info 
+{
+    width:50%;
+    background-color: black;
+}
+h3
+{
+    color:white
+}
+.conteiner__of__image
+{
+    width: 50%;
+    height: 620px;
+}
+.img__of__article
+{
+width: 100%;
+height: 100%;
+background-position-x: 150px;
+background-position-y: 450px;
 
+background-repeat: no-repeat;
 }
 
-#Bienvenidos {
-    text-align: center;
+.second__section 
+{
+
+}
+.second__section__conteiner
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
 }
 
-article img{
-    width: 400px;
-    height: 200px;
-    object-fit: cover;
+.img__of__gallery
+{
+    width: 25%;
+    min-width: auto;
 }
-
 
 footer .contenedor {
     display: flex;
@@ -94,10 +115,10 @@ footer .contenedor {
     
 }
 
-
+}
 @media (min-width:1024px){
     .contenedor {
-        width: 1000px;
+      
     }
 }
 
