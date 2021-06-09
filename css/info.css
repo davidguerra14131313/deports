@@ -1,5 +1,9 @@
 #Info{
-    background:#333;
+    background-image: url(/img/segundo_banner.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
     color: #fff;
     text-align: center;
     padding: 20px;
