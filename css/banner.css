@@ -6,4 +6,5 @@
 #banner
 {
     display: flex;
+    background-size: cover;
 }

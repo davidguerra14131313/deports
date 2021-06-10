@@ -1,3 +1,8 @@
+
+.contenedor
+{
+    width: 100%;
+}
 #menu-bar{
     display: none;
 }
@@ -7,6 +12,7 @@ header label {
     font-size: 28px;
     margin: 6px 0;
     cursor: pointer;
+    right: 0;
 }
 
 .menu {
