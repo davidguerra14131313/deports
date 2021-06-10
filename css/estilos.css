@@ -75,9 +75,14 @@ h3
 h3.content__info
 {
     color:#333;
-    font-size:25px;
+    font-size:30px;
     text-align: center;
-    margin: 50px;
+    margin: 50px 0px 50px 0px;
+}
+#content__info__contact
+{   
+    margin-left:0px ;
+    text-align: left;
 }
 .conteiner__of__image
 {
@@ -119,7 +124,6 @@ h3.content__info
 {
     display: flex;
     flex-wrap: wrap;
-    
     align-items: center;
     gap: 10px;
     display: flex;
@@ -195,7 +199,7 @@ footer .contenedor p
         width: 480px;
         height: 580px;
     }
-footer .contenedor 
+    footer .contenedor 
     {
         padding: 30px;
     }

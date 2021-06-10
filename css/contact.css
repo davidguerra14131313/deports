@@ -1,7 +1,13 @@
+#contacts
+{   
+    display: flex;
+    justify-content: center;
+}
 .four__section__conteiner
 {
     margin: 50px 0px 50px 0px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     gap: 50px;
 }
@@ -22,9 +28,40 @@ textarea
 {
     margin:3px;
 }
+.button__submit
+{
+    width: 150px;
+    height: 35px;
+    margin: 3px;
+}
 .form
 {
     display: flex;
     flex-direction: column;
     width: 300px;
+}
+@media (min-width:1024px) 
+{
+  
+    .four__section__conteiner
+    {
+        margin: 50px 0px 50px 0px;
+        display: flex;
+        flex-direction: inherit;
+        justify-content: space-evenly;
+        width: 80%;
+      
+    }
+    input
+    {
+        margin: 5px;
+        height:50px;
+        width:350px;
+    }  
+    .button__submit
+    {
+        width: 150px;
+        height: 35px;
+        margin: 5px;
+    }
 }
