@@ -119,8 +119,13 @@ h3.content__info
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    
     align-items: center;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
 }
 .img__of__second-gallery
 {
@@ -129,8 +134,13 @@ h3.content__info
     height: 430px;
 }
 
+.parrafo__gallery
+{
+    text-align: center;
+    font-weight: bold;
+}
 footer .contenedor {
-    padding: 10px 0px 10px 0px;
+    padding: 10px 10px 10px 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -179,6 +189,15 @@ footer .contenedor p
     {
         width: 480px;
         height: 580px;
+    }
+    .img__of__second-gallery
+    {
+        width: 480px;
+        height: 580px;
+    }
+footer .contenedor 
+    {
+        padding: 30px;
     }
 }
 
