@@ -1,0 +1,22 @@
+footer .contenedor {
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #333;
+}
+.contenedor {
+    width: 100%;
+}
+.sociales {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+.sociales a {
+    color: white;
+    text-decoration: none;
+}
+.copy {
+    font-size: 20px;
+}
