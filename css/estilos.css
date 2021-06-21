@@ -150,13 +150,14 @@ h3.content__info
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: ;
+    
 }
 .contenedor__about-me
 {
     text-align: center;
     justify-content: center;
     align-items: center;
+    padding: 5px 15px 5px 15px;
 }
 .content__about-me
 {
@@ -168,7 +169,7 @@ h3.content__info
 }
 .parrafo__conteiner__about-me
 {
-    padding: 30px;
+    padding: 13px;
 }
 .third__section__conteiner
 {
@@ -176,8 +177,6 @@ h3.content__info
     flex-wrap: wrap;
     align-items: center;
     gap: 10px;
-    display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 100px;
 }
@@ -226,7 +225,26 @@ footer .contenedor p
     color: white;
     text-decoration: none;
 }
-
+.conteiner__icon-flash__about-me
+{
+    background-color: #333;
+    width: 140px;
+    height: 140px;
+    margin: 30px auto 30px auto;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    display: inline-flex;
+}
+.icon-flash__about-me
+{
+     font-size: 300px;
+     width: 200px;
+     display: inline-block;
+     height: 200px;
+    margin: auto;
+}
 
 @media (min-width:768px){
     .sociales {
@@ -296,9 +314,17 @@ footer .contenedor p
         flex-direction: inherit;
     }
     #map
-    {
+    {   
         height: 450px;
     }
+    .parrafo__conteiner__about-me
+    {
+        padding: 30px 50px  30px 50px;
+        width: 1000px;
+        display: inline-flex;
+        flex-direction: column;
+    }
+
 }
 
 
