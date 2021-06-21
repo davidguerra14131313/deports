@@ -145,6 +145,31 @@ h3.content__info
 {
 
 }
+.section__about-me
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: ;
+}
+.contenedor__about-me
+{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.content__about-me
+{
+    margin:10px;
+}
+.title__conteiner__about-me
+{
+    padding-top:30px;
+}
+.parrafo__conteiner__about-me
+{
+    padding: 30px;
+}
 .third__section__conteiner
 {
     display: flex;
