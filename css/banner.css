@@ -1,11 +1,20 @@
 .first__banner
-{
-    width: 100%;
+{   
+    width: 80%;
     height: 100%;
+    margin: 0 auto;
     margin-top:40px;
 }
 #banner
 {
     display: flex;
     background-size: cover;
+    background-color:#333 ;
+}
+@media  (min-width:1024px) {
+    .first__banner
+    {   
+        width: 54%;
+        margin-top:80px;
+    }
 }
