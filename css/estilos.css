@@ -28,7 +28,9 @@ main{
 h1 {
     float: left; 
 }
-
+p{
+    font-size: medium;
+}
 section {
     width: 100%;
 }
@@ -71,11 +73,7 @@ section {
     justify-content: center;
     align-items: center;
 }
-.conteiner__of__image
-{
-    width:370px;
-    height: 450px;
-}
+
 
 #first__conteiner__of__image__right
 {
@@ -97,9 +95,15 @@ h3
 h3.content__info
 {
     color:#333;
-    font-size:30px;
+    font-size:28px;
     text-align: center;
-    margin: 50px 0px 50px 0px;
+    margin: 25px;
+}
+h3.content__sub-info {
+    color: #333;
+    font-size: medium;
+    text-align: center;
+    margin: 25px;
 }
 .button__more__banners
 {
@@ -114,15 +118,16 @@ h3.content__info
 
 .img__of__article
 {
-    width: 100%;
-    height: 100%;
+    width: 240px;
+    height: 225px;
+    display: flex;
+    margin: 0 auto;
     object-fit: contain;
     background-repeat: no-repeat;
 }
 .second__conteiner__of__image__right
 {
     width:250px;
-    height: 350px;
 }
 .second__section 
 {
@@ -139,9 +144,9 @@ h3.content__info
 
 .img__of__gallery
 {
-    width: 180px;
+    width: 170px;
     display: flex;
-    height: 250px;
+    height: 240px;
     border-radius: 15px;
 }
 .img__of__gallery:hover
@@ -202,9 +207,14 @@ cursor: pointer;
 .parrafo__gallery
 {
     text-align: center;
-    font-weight: bold;
+    font-size: medium;
 }
+.third__section__conteiner.second-gallery__conteiner
+{
+    max-width: 1024px;
+    margin: 0px auto;
 
+}
 #map
 {
     height: 320px;
@@ -240,10 +250,10 @@ footer .contenedor p
 .conteiner__icon-flash__about-me
 {
     background-color: #333;
-    width: 140px;
-    height: 140px;
+    width: 70px;
+    height: 70px;
     margin: 30px auto 30px auto;
-    font-size: 50px;
+    font-size: 20px;
     text-align: center;
     border-radius: 50%;
     color: white;
@@ -256,6 +266,38 @@ footer .contenedor p
 }
 
 @media (min-width:768px){
+    .conteiner__icon-flash__about-me
+{
+    width: 140px;
+    height: 140px;
+    font-size: 50px;
+}
+.conteiner__of__image
+{
+    width: 250px;
+    height: auto;
+}
+h3.content__sub-info
+{
+    font-size:30px;
+    text-align: center;
+    margin: 50px 0px 50px 0px;
+
+}
+    .img__of__article
+{
+    width: 100%;
+    height: 100%;   
+    object-fit: contain;
+    background-repeat: no-repeat;
+}
+    h3.content__info
+{
+    font-size:30px;
+    text-align: center;
+    margin: 50px 0px 50px 0px;
+
+}
     .sociales {
         width: auto;
     }
